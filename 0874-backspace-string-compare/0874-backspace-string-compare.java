@@ -1,24 +1,30 @@
 class Solution {
+
+    // Create an method to get the result for each string after string processing
+        //using Stack for pop the element, when chatAt(i) is '#'  
+    // compair two strings, if they are the same, return true, otherwise, return false
     public boolean backspaceCompare(String s, String t) {
-        if(getStack(s).equals(getStack(t))){
+        if(getString(s).equals(getString(t))){
             return true;
         }
         return false;
     }
 
-    public Stack<Character> getStack(String sta){
-        Stack<Character> newSta =new Stack<>();
+    private Stack<Character> getString(String str){
+        if(str == null && str.isEmpty()) return null;
 
-        for (int i=0; i<sta.length(); i++){
-            if(sta.charAt(i) =='#'){
-                if(!newSta.isEmpty()){
-                    newSta.pop();
+        Stack<Character> strStack = new Stack<>();
+
+        for(int i=0; i<str.length(); i++){
+          
+            if(str.charAt(i) =='#'){
+                if(!strStack.isEmpty()){
+                    strStack.pop();
                 }
             }else{
-                newSta.push(sta.charAt(i));
+                 strStack.push(str.charAt(i));
             }
         }
-
-        return newSta;
+        return strStack;
     }
 }
