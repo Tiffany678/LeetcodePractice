@@ -1,16 +1,19 @@
 class Solution {
     public int[] twoSum(int[] nums, int target) {
-         Map<Integer, Integer> numMap = new HashMap<>();
+        // using HashMap to store the difference value between target and each element in the array, and their associated indexs
+        Map<Integer, Integer> numsMap = new HashMap<>();
         int n = nums.length;
 
-        for (int i = 0; i < n; i++) {
+        for (int i=0; i<n; i++){
             int complement = target - nums[i];
-            if (numMap.containsKey(complement)) {
-                return new int[]{numMap.get(complement), i};
+            
+            if(numsMap.containsKey(complement)){
+            // If the difference value is exiting in the numsMap, return their associated indexs.
+                return new int[]{numsMap.get(complement), i};
             }
-            numMap.put(nums[i], i);
+            // If the difference value is not in the numsMaps, store the difference and the current index, and continue iteration.
+            numsMap.put(nums[i],i);
         }
-
-        return new int[]{}; // No solution found
+        return new int[]{};
     }
 }
