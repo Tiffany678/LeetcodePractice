@@ -7,21 +7,16 @@ var createCounter = function(init) {
 
     let count = init;
 
-    function increment(){
-        return ++count;
-    }
-    function decrement(){
-        return --count;
-    }
-    function reset(){
+    const increment=() => ++count;
+    
+    const decrement=()=> --count;
+    
+    const reset= ()=>{
         count = init;
         return count;
     }
-    return {
-        increment,
-        reset,
-        decrement
-    }
+
+    return {increment, reset, decrement}
 };
 
 /**
