@@ -61,4 +61,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Tiffany678/LeetcodePractic/tree/master/0104-maximum-depth-of-binary-tree) |
+## Database
+|  |
+| ------- |
+| [0175-combine-two-tables](https://github.com/Tiffany678/LeetcodePractic/tree/master/0175-combine-two-tables) |
 <!---LeetCode Topics End-->
