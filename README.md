@@ -71,4 +71,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0183-customers-who-never-order](https://github.com/Tiffany678/LeetcodePractic/tree/master/0183-customers-who-never-order) |
 | [0196-delete-duplicate-emails](https://github.com/Tiffany678/LeetcodePractic/tree/master/0196-delete-duplicate-emails) |
 | [0197-rising-temperature](https://github.com/Tiffany678/LeetcodePractic/tree/master/0197-rising-temperature) |
+| [1179-game-play-analysis-i](https://github.com/Tiffany678/LeetcodePractic/tree/master/1179-game-play-analysis-i) |
 <!---LeetCode Topics End-->
