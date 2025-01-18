@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/Tiffany678/LeetcodePractic/tree/master/0001-two-sum) |
 | [0215-kth-largest-element-in-an-array](https://github.com/Tiffany678/LeetcodePractic/tree/master/0215-kth-largest-element-in-an-array) |
+| [1528-kids-with-the-greatest-number-of-candies](https://github.com/Tiffany678/LeetcodePractic/tree/master/1528-kids-with-the-greatest-number-of-candies) |
 ## Two Pointers
 |  |
 | ------- |
